@@ -1,5 +1,6 @@
 
-# Created by https://www.gitignore.io/api/c++
+# Created by https://www.toptal.com/developers/gitignore/api/c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++
 
 ### C++ ###
 # Prerequisites
@@ -35,5 +36,5 @@
 *.out
 *.app
 
-
-# End of https://www.gitignore.io/api/c++
+# End of https://www.toptal.com/developers/gitignore/api/c++
+/.vscode/
