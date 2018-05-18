@@ -1,0 +1,1 @@
+//abstraction means we focus on essential qualities of the object rather than one specific example. ignore the irrelevant. ignore the unimportant. abstraction means that we can have a concept but it is not specific to a particular instance//

@@ -1,0 +1,13 @@
+IPC
+
+Questioin 1. Write two programmes a consumer and a producer communicating with each other where producer takes an input string from the user and consumer writes the input on to the screen. when the user writes "end" as input,both programmes must terminate.
+
+Question 2. Write three programmes communicating with each other. Firtst programmes takes an array of integeres as input from the user, after which the second programmes sorts and prints the sorted array to its stdout, then the third programme asks the user to enter a number to be searched in the array and searchs it. if the search is successful the first programme should display number found and not found otherwiese and should then ask for another array of integers.
+
+Question 3. Write four programmes three producers and consumers. Each of the producers generates a random number each. if any two of the randomly generated numbers are same then the producers must produce another set of numbers. When all three generated numbers are different the consumer must take those numbers and add them to generate the sum. the consumer must also write the three numbers alongside their sum in to a text file. All programmes must terminate when 10 such sets of numbers are written on to the file.
+
+DS
+
+Question 1. Implement Merge Sort.
+
+Question 2. Create an interactive program to add and delete students from a link list of students.each node of the list contains student name and rollnumber list should contained students in sorted ascending order of roll number. each new entry must be added at the appropriate place in the list so as to maintain ascending order. after each insertion or deletion display the list in a tabular form
