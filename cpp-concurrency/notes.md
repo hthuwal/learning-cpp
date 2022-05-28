@@ -124,15 +124,20 @@ if(!stk.empty()) {
 - Change the interface to combine top and pop function into a single function **`pop_top`**.
 - This will internally does an empty check and does top and pop all locked by mutex.
 - See `thread-safe-stack.cpp`.
+- Problem with return by value:
+    - Returning by value requires memory allocation and can cause problems if there are memory constraints. Two solutions:
+        - Store the shared ptr in stack and return the shared ptr.
+        - Have the caller allocate the memory and pass reference to it so we can update it.
 
 ### DeadLocks
 
 - See `deadlock.cpp`
+- Lock while joining without mutexes: t1 calls `t2.join()` and t2 calls `t1.join()`
 
 ### **`unique_locks`**
 
 - General Purpose mutex ownership wrapper used to manage mutexes.
 - Unlike **`lock_guard`** it does not have to acquire the lock from the associated mutex.
 - `unique_locks` are neither copy constructibe nor copy assignable.
-- But they are move constructibel and move assignable.
+- But they are move constructable and move assignable.
 - See `unique-locks.cpp` to see how we solve the problem in `deadlock.cpp`
