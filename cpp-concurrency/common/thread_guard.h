@@ -22,3 +22,16 @@ class Thread_Guard {
     Thread_Guard(Thread_Guard &) = delete;
     Thread_Guard &operator=(Thread_Guard &) = delete;
 };
+
+class Join_Threads {
+    std::vector<std::thread>& threads;
+    public: 
+    explicit Join_Threads(std::vector<std::thread>& _threads): threads(_threads){};
+    ~Join_Threads() {
+        for(auto& th: threads) {
+            if (th.joinable()) {
+                th.join();
+            }
+        }
+    }
+};
