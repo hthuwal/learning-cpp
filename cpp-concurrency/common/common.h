@@ -6,6 +6,7 @@
 #include <thread>
 #include <vector>
 #include <execution>
+#include <assert.h>
 
 #include "thread_guard.h"
 using std::milli;
