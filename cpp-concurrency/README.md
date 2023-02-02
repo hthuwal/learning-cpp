@@ -5,3 +5,4 @@
 ## [Section 5: C++20 Concurrency Features](s5-c++20-concurrency-features/README.md)
 ## [Section 6: Memory Model and Atomic Operations](s6-memory-model-atomic-operations/README.md)
 ## [Section 7: Lock Free Alogrithms and DS](s7-lock-free-ds-algo/README.md)
+## [Section 8: Thread Pools](s8-thread-pools/README.md)

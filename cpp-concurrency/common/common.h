@@ -5,8 +5,11 @@
 #include <random>
 #include <thread>
 #include <vector>
+#include <queue>
+#include <list>
 #include <execution>
 #include <assert.h>
+#include <memory>
 
 #include "thread_guard.h"
 using std::milli;
