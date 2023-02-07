@@ -1,3 +1,7 @@
+## Modern C++ concurrency
+
+Notes and code written while doing a [udemy course](https://www.udemy.com/course/modern-cpp-concurrency-in-depth/) on C++ concurrency. 
+
 ## [Section 1: Thread Management](s1-thread-management/README.md)
 ## [Section 2: Mutexes and Locks](s2-thread-safe-access-to-data-and-locks/README.md)
 ## [Section 3: Thread Communication](s3-thread-communication-condition-var-futures/README.md)
